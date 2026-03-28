@@ -7,7 +7,6 @@ const Contact = () => {
 
   const contactInfo = [
     { label: t("contact.email"), value: "glsmsumer44@gmail.com", href: "mailto:glsmsumer44@gmail.com" },
-    { label: t("contact.phone"), value: "0544 586 5571", href: "tel:+905445865571" }
   ];
 
   const socialLinks = [

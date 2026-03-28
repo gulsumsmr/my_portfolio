@@ -26,7 +26,6 @@ const Footer = () => {
     { name: "LinkedIn", url: "https://www.linkedin.com/in/gulsumsumer", external: true },
     { name: "GitHub", url: "https://github.com/gulsumsmr", external: true },
     { name: "glsmsumer44@gmail.com", url: "mailto:glsmsumer44@gmail.com", external: false },
-    { name: "0544 586 5571", url: "tel:05445865571", external: false }
   ];
 
   return (
@@ -34,7 +33,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="footer-top">
           <div className="footer-brand">
-            <h2>Gulsum Sumer</h2>
+            <h2>Gülsüm Sümer</h2>
             <p>{t("footer.tagline")}</p>
           </div>
 
@@ -49,7 +48,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-nav-group">
-              <h3 className="footer-nav-title">Connect</h3>
+              <h3 className="footer-nav-title">İletişim</h3>
               <div className="footer-nav-links">
                 {connectLinks.map((link, index) => (
                   <a

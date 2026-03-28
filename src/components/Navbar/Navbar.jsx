@@ -70,6 +70,16 @@ const Navbar = () => {
 
           <div className="mobile-divider"></div>
 
+          <button
+            onClick={() => {
+              i18n.changeLanguage(i18n.language === "tr" ? "en" : "tr");
+              closeMenu();
+            }}
+            className="lang-btn"
+          >
+            {i18n.language === "tr" ? "EN" : "TR"}
+          </button>
+
           <div className="mobile-socials">
             <a href="https://www.linkedin.com/in/gulsumsumer" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
               <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
