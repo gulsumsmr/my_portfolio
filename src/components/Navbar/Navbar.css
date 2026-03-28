@@ -37,6 +37,13 @@
 .lang-btn:hover {
   opacity: 0.7;
 }
+.navbar-mobile-menu .lang-btn {
+  width: auto;
+  padding: 3px 10px;
+  font-size: 11px;
+  height: 24px;
+  align-self: flex-start;
+}
 
 .navbar-logo {
     font-family: var(--font-secondary);
