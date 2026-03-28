@@ -1,0 +1,125 @@
+{
+  "navbar": {
+    "about": "Hakkımda",
+    "expertise": "Uzmanlık",
+    "studies": "Çalışmalar",
+    "education": "Eğitim",
+    "works": "Deneyimler",
+    "contact": "İletişim",
+    "menuOpen": "Menüyü aç",
+    "menuClose": "Menüyü kapat"
+  },
+  "hero": {
+    "description": "İnönü Üniversitesi Bilgisayar Mühendisliği bölümünden mezun olan bir Web Geliştiriciyim. Lisans eğitimim süresince edindiğim teorik bilgiyi çeşitli staj ve proje deneyimleriyle uygulamaya dönüştürdüm. Kurumsal ortamlarda yürütülen projelerde aktif sorumluluk üstlenerek hem teknik hem de mesleki yetkinliklerimi geliştirdim. Disiplinli çalışma anlayışım, analitik bakış açım ve sürekli öğrenmeye olan bağlılığımla her projede kalıcı ve nitelikli çıktılar üretmeyi hedefliyorum.",
+    "downloadCV": "Özgeçmişi İndir",
+    "linkedinProfile": "LinkedIn Profili"
+  },
+  "about": {
+    "heading": "Gülsüm Sümer Kimdir?",
+    "description": "İnönü Üniversitesi Bilgisayar Mühendisliği bölümünden 3.19 GPA ile mezun olan bir Web Geliştiriciyim. Lisans eğitimimin yanı sıra Atatürk Üniversitesi Sosyal Hizmetler bölümünde öğrenciyim. React.js, JavaScript, ASP.NET MVC ve C# teknolojileriyle frontend ve backend süreçlerini kapsayan projeler geliştirdim; TÜBİTAK destekli araştırma projesinde yapay zekâ tabanlı bir sistem üzerinde çalıştım. Sultangazi Belediyesi, Sca Social ve İnönü Üniversitesi'nde çeşitli stajlar tamamlayarak kurumsal ortamlarda hem teknik hem de yönetimsel deneyim edindim. Google Developer Student Clubs'ta Çekirdek Ekip Üyesi olarak etkinlikler organize ettim ve yazılım atölyelerinde mentörlük desteği sağladım.",
+    "trait1": "Çözüm Odaklı",
+    "trait2": "Yazılım Geliştirici",
+    "trait3": "Ekip Odaklı"
+  },
+  "techStack": {
+    "title": "Teknoloji Yığınım",
+    "description": "Kusursuz dijital çözümler oluşturmak için kullandığım seçkin diller, kütüphaneler ve araçlar.",
+    "frontend": "Frontend",
+    "backendDb": "Backend & Database",
+    "tools": "Tools"
+  },
+  "studies": {
+    "title": "ÖNE ÇIKAN ÇALIŞMALAR",
+    "description": "Teknik yetkinliklerimi ve profesyonel yolculuğumu yansıtan seçili çalışmalarım.",
+    "visitGithub": "GitHub'ı Ziyaret Edin",
+    "project": "Proje",
+    "items": [
+      {
+        "title": "TÜBİTAK 2209-A Araştırma Projesi",
+        "desc": "300.000+ uydu görüntüsü üzerinde eğitilen yapay zekâ modeli ile kentsel planlama analizi yaparak kaçak yapıları otomatik olarak tespit eden bir sistemdir."
+      },
+      {
+        "title": "Deprem Tahmini AI Modeli",
+        "desc": "AFAD'ın tarihsel verileriyle eğitilen yapay zekâ modeli kullanarak gelecekteki depremleri tahmin etmeyi amaçlayan bir projedir."
+      },
+      {
+        "title": "Kayıp Eşya Takip Sistemi",
+        "desc": "Sultangazi Belediyesi stajı kapsamında geliştirilen, vatandaşların unuttuğu eşyaların yönetimini sağlayan full-stack web uygulamasıdır."
+      },
+      {
+        "title": "Görüntü İşleme ile Organ (IVC) Segmentasyonu",
+        "desc": "Görüntü işleme teknikleriyle tıbbi görüntülerde Inferior Vena Cava bölgesini otomatik olarak tespit etmek ve işaretlemek."
+      },
+      {
+        "title": "To-do List Uygulaması",
+        "desc": "Kullanıcıların günlük yapılacaklar listelerini yönetebileceği, Firebase Authentication ile güvenli kullanıcı yönetimi yapılan bir web uygulamasıdır."
+      }
+    ]
+  },
+  "education": {
+    "title": "Eğitim ve Sosyal Sorumluluk",
+    "description": "Resmi mühendislik eğitimi ve aktif topluluk mentorluğu üzerine kurulu bir temel.",
+    "items": [
+      {
+        "meta": "Eğitim (2021 | 2026)",
+        "role": "Bilgisayar Mühendisliği",
+        "org": "İnönü Üniversitesi",
+        "details": "Not ortalaması: 3.19/4.00"
+      },
+      {
+        "meta": "Eğitim (2022 | Devam Ediyor)",
+        "role": "Sosyal Hizmetler",
+        "org": "Atatürk Üniversitesi",
+        "details": "Not Ortalaması: 3.01/4.00"
+      },
+      {
+        "meta": "Gönüllülük",
+        "role": "Çekirdek Ekip Üyesi",
+        "org": "Google Geliştirici Öğrenci Kulüpleri (GDSC)",
+        "details": "Üniversite bünyesinde teknoloji etkinlikleri ve hackathon'lar organize ederek, yazılım atölyelerinde teknik mentörlük ve bilgi paylaşımı süreçlerini yürüttüm."
+      }
+    ]
+  },
+  "works": {
+    "title": "DENEYİMLER",
+    "description": "Farklı sektörlerde edindiğim pratik deneyimler ve mesleki gelişim sürecim.",
+    "items": [
+      {
+        "meta": "Staj (Eylül 2025 | Ocak 2026)",
+        "role": "Bilgisayar Mühendisliği Stajyeri",
+        "org": "Sultangazi Belediyesi",
+        "details": "Kurumsal web uygulamalarında full stack geliştirme ve teknik destek süreçlerini uçtan uca yürüttüm."
+      },
+      {
+        "meta": "Staj (Ekim 2024 | Kasım 2024)",
+        "role": "Proje Yönetimi Stajyeri",
+        "org": "Sca Social",
+        "details": "Proje yönetiminden dijital pazarlama stratejilerine kadar planlama, koordinasyon ve dokümantasyon süreçlerini eksiksiz yürüttüm. Node.js ve PostgreSQL ile REST API'lar tasarladım."
+      },
+      {
+        "meta": "Staj (Ekim 2023 | Nisan 2024)",
+        "role": "Video Prodüksiyon Stajyeri",
+        "org": "İnönü Üniversitesi Uzaktan Eğitim ve Araştırma Merkezi",
+        "details": "Üniversite bünyesinde video prodüksiyon süreçlerini baştan sona üstlenerek akademik kalitede içerikler ürettim."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "İletişime Geç",
+    "description": "Yazılım geliştirme alanında kendimi sürekli yenileyen, öğrenmeye ve üretmeye odaklanan biriyim. Yeni iş fırsatlarına, projelere ve iş birliklerine açığım. Benimle iletişime geçmekten çekinmeyin!",
+    "email": "Email",
+    "phone": "Telefon"
+  },
+  "footer": {
+    "tagline": "Kurumsal ihtiyaçlara yönelik ölçeklenebilir web uygulamaları tasarlayan ve geliştiren yazılım mühendisi.",
+    "navigation": "Navigasyon",
+    "backToTop": "Başa Dön",
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "expertise": "Uzmanlık",
+    "studies": "Çalışmalar",
+    "educationCommunity": "Eğitim & Topluluk",
+    "works": "Deneyimler",
+    "contact": "İletişim"
+  }
+}

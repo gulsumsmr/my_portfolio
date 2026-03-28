@@ -1,0 +1,173 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 120px 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(139, 90, 43);
+  padding: 80px 48px;
+  border-radius: 24px;
+  box-shadow: 0 32px 64px -16px rgba(139, 90, 43, 0.35);
+  width: 100%;
+  box-sizing: border-box;
+  animation: fadeUp 0.8s ease forwards;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+}
+
+.contact-heading {
+  font-family: 'Inter', sans-serif;
+  color: rgb(212, 175, 55);
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.contact-description {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.6;
+  margin: 0 0 56px 0;
+  max-width: 600px;
+}
+
+.contact-info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 64px;
+  margin: 0 0 64px 0;
+  width: 100%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-label {
+  font-family: 'Inter', sans-serif;
+  color: rgb(212, 175, 55);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.contact-link {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  color: rgb(212, 175, 55);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.social-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 40px;
+  background-color: rgb(212, 175, 55);
+  color: rgb(139, 90, 43);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 64px;
+  transition: all 0.3s ease;
+  border: 2px solid rgb(139, 90, 43);
+}
+
+.social-button:hover {
+  background-color: rgb(139, 90, 43);
+  color: rgb(212, 175, 55);
+  border: 2px solid rgb(212, 175, 55);
+  transform: translateY(-4px);
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 80px 16px;
+  }
+
+  .contact-card {
+    padding: 56px 24px;
+  }
+
+  .contact-heading {
+    font-size: 40px;
+  }
+
+  .contact-description {
+    font-size: 18px;
+    margin: 0 0 40px 0;
+  }
+
+  .contact-info-wrapper {
+    flex-direction: column;
+    gap: 32px;
+    margin: 0 0 48px 0;
+  }
+
+  .contact-link {
+    font-size: 20px;
+  }
+
+  .social-links {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .social-button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

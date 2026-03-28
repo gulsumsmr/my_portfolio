@@ -1,0 +1,23 @@
+:root{
+  --primary: rgb(139,90,43);
+  --secondary: rgb(212,175,55);
+  --accent : rgb(212,175,55);
+  --background: #ffffff;
+  --text : rgb(44,44,44);
+  --color:#FAF9F6;
+  --accent-gradient: linear-gradient(135deg, #e7ce61 0%, #c4a43c 100%);
+
+
+
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+  --font-special: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background); /* Sayfanın tamamı artık kırık beyaz */
+  color: var(--text);
+  font-family: var(--font-primary);
+}

@@ -1,0 +1,125 @@
+{
+  "navbar": {
+    "about": "About",
+    "expertise": "Expertise",
+    "studies": "Studies",
+    "education": "Education",
+    "works": "Experience",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "description": "I am a Web Developer graduated from İnönü University, Department of Computer Engineering. I transformed the theoretical knowledge I gained during my undergraduate studies into practice through various internships and project experiences. By taking active responsibility in projects carried out in corporate environments, I developed both my technical and professional competencies.",
+    "downloadCV": "Download CV",
+    "linkedinProfile": "LinkedIn Profile"
+  },
+  "about": {
+    "heading": "Who is Gülsüm Sümer?",
+    "description": "I am a Web Developer who graduated from İnönü University Computer Engineering with a 3.19 GPA. Alongside my undergraduate education, I am a student at Atatürk University Social Services department. I developed projects covering frontend and backend processes with React.js, JavaScript, ASP.NET MVC and C# technologies; I worked on an AI-based system in a TÜBİTAK-supported research project. I completed various internships at Sultangazi Municipality, Sca Social and İnönü University, gaining both technical and managerial experience in corporate environments. As a Core Team Member at Google Developer Student Clubs, I organized events and provided mentorship support in software workshops.",
+    "trait1": "Solution-Oriented",
+    "trait2": "Software Developer",
+    "trait3": "Team-Oriented"
+  },
+  "techStack": {
+    "title": "My Tech Stack",
+    "description": "Selected languages, libraries and tools I use to build seamless digital solutions.",
+    "frontend": "Frontend",
+    "backendDb": "Backend & Database",
+    "tools": "Tools"
+  },
+  "studies": {
+    "title": "FEATURED WORKS",
+    "description": "Selected works reflecting my technical competencies and professional journey.",
+    "visitGithub": "Visit GitHub",
+    "project": "Project",
+    "items": [
+      {
+        "title": "TÜBİTAK 2209-A Research Project",
+        "desc": "A system that automatically detects illegal structures by analyzing urban planning using an AI model trained on 300,000+ satellite images."
+      },
+      {
+        "title": "Earthquake Prediction AI Model",
+        "desc": "A project aimed at predicting future earthquakes using an AI model trained with AFAD's historical data."
+      },
+      {
+        "title": "Lost Item Tracking System",
+        "desc": "A full-stack web application developed during Sultangazi Municipality internship for managing citizens' lost belongings digitally."
+      },
+      {
+        "title": "Organ (IVC) Segmentation via Image Processing",
+        "desc": "Automatically detecting and marking the Inferior Vena Cava region in medical images using image processing techniques."
+      },
+      {
+        "title": "To-do List Application",
+        "desc": "A web application for managing daily to-do lists with secure user management via Firebase Authentication."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education & Social Responsibility",
+    "description": "A foundation built on formal engineering education and active community mentorship.",
+    "items": [
+      {
+        "meta": "Education (2021 | 2026)",
+        "role": "Computer Engineering",
+        "org": "İnönü University",
+        "details": "GPA: 3.19/4.00"
+      },
+      {
+        "meta": "Education (2022 | Ongoing)",
+        "role": "Social Services",
+        "org": "Atatürk University",
+        "details": "GPA: 3.01/4.00"
+      },
+      {
+        "meta": "Volunteering",
+        "role": "Core Team Member",
+        "org": "Google Developer Student Clubs (GDSC)",
+        "details": "Organized technology events and hackathons within the university, leading technical mentorship and knowledge sharing in software workshops."
+      }
+    ]
+  },
+  "works": {
+    "title": "EXPERIENCE",
+    "description": "Practical experiences and professional development across different sectors.",
+    "items": [
+      {
+        "meta": "Internship (Sep 2025 | Jan 2026)",
+        "role": "Computer Engineering Intern",
+        "org": "Sultangazi Municipality",
+        "details": "Led end-to-end full stack development and technical support processes in corporate web applications."
+      },
+      {
+        "meta": "Internship (Oct 2024 | Nov 2024)",
+        "role": "Project Management Intern",
+        "org": "Sca Social",
+        "details": "Managed planning, coordination and documentation processes from project management to digital marketing strategies. Designed REST APIs with Node.js and PostgreSQL."
+      },
+      {
+        "meta": "Internship (Oct 2023 | Apr 2024)",
+        "role": "Video Production Intern",
+        "org": "İnönü University Distance Education and Research Center",
+        "details": "Took full responsibility for video production processes within the university, producing academic-quality content."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "description": "I am someone who constantly renews myself in software development, focused on learning and producing. I am open to new job opportunities, projects and collaborations. Don't hesitate to reach out!",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "footer": {
+    "tagline": "Software engineer designing and developing scalable web applications for corporate needs.",
+    "navigation": "Navigation",
+    "backToTop": "Back to Top",
+    "home": "Home",
+    "about": "About",
+    "expertise": "Expertise",
+    "studies": "Studies",
+    "educationCommunity": "Education & Community",
+    "works": "Experience",
+    "contact": "Contact"
+  }
+}
