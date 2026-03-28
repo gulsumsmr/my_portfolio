@@ -1,6 +1,14 @@
+:root{
+  --primary: rgb(221,45,74);
+  --secondary: rgb(242,106,141);
+  --background: rgb(254,245,248);
+  --text : rgb(136,13,30);
+  --color:#FAF9F6
+}
+
 .portfolio-footer {
-  background-color: rgb(139, 90, 43);
-  color: #ffffff;
+  background-color: var(--secondary);
+  color: var(--background);
   font-family: 'Inter', sans-serif;
   padding: 80px 24px 40px 24px;
   display: flex;
@@ -40,7 +48,7 @@
   font-size: 32px;
   font-weight: 700;
   margin: 0px;
-  color: rgb(212, 175, 55);
+  color: var(--text);
 }
 
 .footer-brand p {
@@ -68,7 +76,7 @@
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: rgb(212, 175, 55);
+  color: var(--text);
   margin: 0px;
 }
 
@@ -88,7 +96,7 @@
 }
 
 .footer-nav-links a:hover {
-  color: rgb(212, 175, 55);
+  color: var(--text);
   transform: translateX(4px);
   opacity: 1;
 }
@@ -96,7 +104,7 @@
 .footer-divider {
   height: 1px;
   width: 100%;
-  background-color: rgb(212, 175, 55);
+  background-color: var(--text);
   opacity: 0.3;
 }
 
@@ -118,8 +126,8 @@
 }
 
 .back-to-top {
-  background-color: rgb(139, 90, 43);
-  color: rgb(212, 175, 55);
+  background-color: transparent;
+  color: var(--text);
   border: none;
   padding: 8px 0px;
   font-family: 'Inter', sans-serif;

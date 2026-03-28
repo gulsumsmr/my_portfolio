@@ -1,9 +1,4 @@
 :root {
-  --landing-background: #ffffff;
-  --landing-primary: rgb(212,175,55);
-  --landing-secondary: rgb(139,90,43);
-  --landing-text: #1a202c;
-  --landing-text-muted: #4a5568;
   --landing-font-family-primary: 'Inter', sans-serif;
   --landing-font-family-secondary: 'Inter', sans-serif;
   --landing-font-family-special: 'Inter', sans-serif;
@@ -11,8 +6,10 @@
   --landing-radius-full: 9999px;
 }
 
+
+
 .edu-section {
-  background-color: var(--landing-background);
+  background-color: rgb(254,245,248);
   padding: 100px 24px;
   display: flex;
   flex-direction: column;
@@ -42,7 +39,7 @@
 
 .edu-title {
   font-family: var(--landing-font-family-secondary);
-  color: var(--landing-text);
+  color:rgb(136,13,30);
   font-size: 48px;
   font-weight: 700;
   margin: 0;
@@ -52,7 +49,7 @@
 
 .edu-desc {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-text-muted);
+  color: rgb(136,13,30);
   font-size: 22px;
   margin: 0;
   line-height: 1.6;
@@ -75,7 +72,7 @@
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  background-color: var(--landing-secondary);
+  background-color: rgb(242,106,141);
   opacity: 0.3;
   z-index: 1;
 }
@@ -109,7 +106,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--landing-primary);
+  background-color: rgb(221,45,74);
   opacity: 0.03;
   border-radius: var(--landing-radius-md);
   z-index: -1;
@@ -122,7 +119,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  border: 1px solid var(--landing-primary);
+  border: 1px solid rgb(221,45,74);
   opacity: 0.15;
   border-radius: var(--landing-radius-md);
   z-index: -1;
@@ -137,8 +134,8 @@
   width: 24px;
   height: 24px;
   border-radius: var(--landing-radius-full);
-  background-color: var(--landing-primary);
-  border: 4px solid var(--landing-primary);
+  background-color: rgb(242,106,141);
+  border: 4px solid rgb(242,106,141);
   z-index: 10;
   top: 35px;
   transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
@@ -146,13 +143,13 @@
 }
 
 .edu-item:hover .edu-node {
-  background-color: var(--landing-secondary);
+  background-color: rgb(242,106,141);
   transform: scale(1.2);
 }
 
 .edu-meta {
   font-family: var(--landing-font-family-special);
-  color: var(--landing-primary);
+  color: rgb(242,106,141);
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
@@ -161,7 +158,7 @@
 
 .edu-role {
   font-family: var(--landing-font-family-secondary);
-  color: var(--landing-text);
+  color: rgb(136,13,30);
   font-size: 28px;
   font-weight: 700;
   margin: 0;
@@ -169,7 +166,7 @@
 
 .edu-org {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-secondary);
+  color: rgb(221,45,74);
   font-size: 20px;
   font-weight: 600;
   margin: 0;
@@ -178,7 +175,7 @@
 
 .edu-details {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-text-muted);
+  color: rgb(136,13,30);
   font-size: 16px;
   margin: 0;
   line-height: 1.6;

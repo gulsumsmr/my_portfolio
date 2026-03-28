@@ -82,7 +82,7 @@
 }
 
 .btn-ozgecmis {
-    background-color: rgb(139,90,43) !important;
+    background-color: var(--primary) !important;
     color:  #ffffff;
     border: none;
     border-radius: 5px;
@@ -90,8 +90,8 @@
 
 .btn-ozgecmis:hover {
     background-color: transparent !important;
-    color: rgb(139,90,43);
-    border: 2px solid rgb(139,90,43);
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
     transform: translateY(-2px);
 }
 

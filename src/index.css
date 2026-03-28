@@ -1,9 +1,9 @@
 :root{
-  --primary: rgb(139,90,43);
-  --secondary: rgb(212,175,55);
-  --accent : rgb(212,175,55);
-  --background: #ffffff;
-  --text : rgb(44,44,44);
+  --primary: rgb(221,45,74);
+  --secondary: rgb(242,106,141);
+  --accent : #9ED8DB;
+  --background: rgb(254,245,248);
+  --text : rgb(136,13,30);
   --color:#FAF9F6;
   --accent-gradient: linear-gradient(135deg, #e7ce61 0%, #c4a43c 100%);
 

@@ -85,9 +85,9 @@
     justify-content: center;
     width: 66px;
     height: 66px;
-    background: linear-gradient(135deg, #e7ce61 0%, #c4a43c 100%);
+    background: linear-gradient(135deg, rgba(242,106,141) 0%, rgba(244,156,187) 100%);
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(196, 164, 60, 0.3);
+    box-shadow: 0 4px 15px rgba(164, 74, 63, 0.3);
 }
 
 .tech-card-icon-wrapper svg {

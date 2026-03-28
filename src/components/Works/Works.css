@@ -1,23 +1,17 @@
 :root {
-  --landing-background: #ffffff;
-  --landing-primary: rgb(212, 175, 55);
-  --landing-secondary: rgb(139, 90, 43);
-  --landing-text: #1a202c;
-  --landing-text-muted: #4a5568;
   --landing-font-family-primary: 'Inter', sans-serif;
   --landing-font-family-secondary: 'Inter', sans-serif;
   --landing-font-family-special: 'Inter', sans-serif;
   --landing-radius-md: 16px;
   --landing-radius-full: 9999px;
+   --primary: rgb(221,45,74);
+  --secondary: rgb(242,106,141);
+  --accent : #9ED8DB;
+  --background: rgb(254,245,248);
+  --text : rgb(136,13,30);
 }
-
 .int-section {
-  background: linear-gradient(
-    160deg,
-    rgba(212, 175, 55, 0.18) 0%,
-    rgba(212, 175, 55, 0.07) 40%,
-    rgba(139, 90, 43, 0.10) 100%
-  );
+  background-color: rgb(254,245,248);
   padding: 100px 24px;
   display: flex;
   flex-direction: column;
@@ -43,11 +37,12 @@
   max-width: 800px;
   width: 100%;
   align-self: center;
+  
 }
 
 .int-title {
   font-family: var(--landing-font-family-secondary);
-  color: var(--landing-text);
+  color: var(--text);
   font-size: 48px;
   font-weight: 700;
   margin: 0;
@@ -57,7 +52,7 @@
 
 .int-desc {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-text-muted);
+  color: var(--text);
   font-size: 22px;
   margin: 0;
   line-height: 1.6;
@@ -76,7 +71,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background-color: var(--landing-primary);
+  background-color: var(--secondary);
   opacity: 0.5;
   z-index: 1;
   border-radius: 2px;
@@ -119,7 +114,7 @@
 .int-arrow-line {
   width: 3px;
   height: 40px;
-  background-color: var(--landing-secondary);
+  background-color: var(--secondary);
   opacity: 0.5;
 }
 
@@ -128,7 +123,7 @@
   height: 0;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 12px solid var(--landing-secondary);
+  border-top: 12px solid var(--secondary);
   opacity: 0.5;
 }
 
@@ -138,6 +133,7 @@
 }
 
 .int-content {
+  background-color: rgb(254,245,248);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -155,7 +151,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(212, 175, 55, 0.07);
+  background-color: rgba(221,45,74, 0.07);
   border-radius: var(--landing-radius-md);
   z-index: -1;
   transition: all 0.4s ease;
@@ -173,12 +169,12 @@
 }
 
 .int-item:hover .int-content-bg {
-  background-color: rgba(212, 175, 55, 0.13);
+  background-color: rgba(221, 45, 74, 0.13);
 }
 
 .int-meta {
   font-family: var(--landing-font-family-special);
-  color: var(--landing-secondary);
+  color: var(--primary);
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -187,7 +183,7 @@
 
 .int-role {
   font-family: var(--landing-font-family-secondary);
-  color: var(--landing-text);
+  color: var(--secondary);
   font-size: 18px;
   font-weight: 700;
   margin: 0;
@@ -196,7 +192,7 @@
 
 .int-org {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-secondary);
+  color: var(--primary);
   font-size: 15px;
   font-weight: 600;
   margin: 0;
@@ -205,7 +201,7 @@
 
 .int-details {
   font-family: var(--landing-font-family-primary);
-  color: var(--landing-text-muted);
+  color: var(--text);
   font-size: 13px;
   margin: 0;
   line-height: 1.6;
@@ -263,7 +259,7 @@
     bottom: 0;
     left: 15px;
     width: 3px;
-    background-color: var(--landing-primary);
+    background-color: var(--primary);
     opacity: 0.4;
     border-radius: 2px;
     z-index: 1;
@@ -301,7 +297,7 @@
   .int-arrow-head {
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
-    border-left: 12px solid var(--landing-secondary);
+    border-left: 12px solid var(--secondary);
     border-right: none;
   }
 

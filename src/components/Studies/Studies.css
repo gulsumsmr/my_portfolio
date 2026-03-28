@@ -1,5 +1,5 @@
 .studies-section {
-    background-color: #FEF9D7;    
+    background-color: var(--background);    
     padding: 96px 24px;
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     opacity: 0;
     z-index: 1;
-    border: 1px solid rgba(139, 90, 43, 0.1);
+    border: 1px solid var(--primary);
 }
 
 .studies-card:hover {
@@ -112,7 +112,7 @@
     padding: 6px 14px;
     border-radius: 8px;
     background-color: var(--primary);
-    color: #FEF9D7;
+    color: #ffffff;
     font-size: 13px;
     font-weight: 600;
 }
@@ -131,7 +131,7 @@
     border-radius: 50px;
     text-decoration: none;
     /* İkonlardaki o şık sarı geçiş */
-    background: linear-gradient(135deg, #e7ce61 0%, #c4a43c 100%);
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 140%);
     transition: transform 0.3s ease;
     box-shadow: 0 4px 15px rgba(196, 164, 60, 0.2);
 }
