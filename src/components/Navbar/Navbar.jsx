@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="portfolio-navbar-wrapper" aria-label="Ana Gezinme">
         <div className="navbar-container">
           <a href="#home" className="navbar-logo" aria-label="Gulsum Sumer - Ana Sayfa">
-            Gulsum Sumer
+            Gülsüm Sümer
           </a>
 
           <div className="navbar-links-desktop" aria-label="Masaustu Navigasyonu">
